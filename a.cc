@@ -6,16 +6,11 @@ using namespace std;
 //the quoutient is: __
 //the remainder is: __
 
-int main() {    
-    int number1, number2, quotient, remainder;
-    cout<<"Enter Number1: ";
-    cin>> number1;
-    cout << "Enter number2: ";
-    cin>> number2;
-    quotient = number1 / number2;
-    remainder = number1 % number2;
-    cout<<"The qoutient is: " << quotient<<endl ;
-    cout<< "The remainder is: " << remainder << endl; 
+int main() {   
+    int i= 1;  
+    for ( i; i<11; i++){
+        cout << i << endl;
+    }
     
     cout << endl << endl;
     return 0 ;
