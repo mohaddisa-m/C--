@@ -7,11 +7,14 @@ using namespace std;
 //the remainder is: __
 
 int main() {   
-    int i= 1;  
-    for ( i; i<11; i++){
-        cout << i << endl;
+    int m = 35 ;
+    if (m<20){
+        cout << "Number is less than 20";
+    } 
+    else if (m>20) {
+        cout << "Number is greater than 20";
     }
-    
+
     cout << endl << endl;
     return 0 ;
 }
