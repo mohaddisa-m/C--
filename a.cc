@@ -1,13 +1,10 @@
 #include <iostream>
 using namespace std;
 
-//enter number1: ___
-//enter number2: ___
-//the quoutient is: __
-//the remainder is: __
-
 int main() {   
-    int m = 35 ;
+    int m ; 
+    cout << " enter your number ";   
+    cin >> m; 
     if (m<20){
         cout << "Number is less than 20";
     } 
