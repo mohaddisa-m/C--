@@ -1,15 +1,22 @@
 #include <iostream>
 using namespace std;
 
-//i%3
-//i%3 ==0 && i%5==0
-int main() {   
-   int n; 
-    cout << "enter a  integer : ";
-    cin >> n; 
-    for (int i = 1; i <= 20 ; ++i ){
-        cout << n << "*"<< i << "=" << n * i << endl;  
-    }
-    return 0 ;
+// 3 inpits
+// smaller, larger 
 
+
+int main() {
+    int x, y , z ;
+    cout << "Enter three numbers : ";
+    cin >> x >> y >> z ; 
+    if (x > y)
+        swap (x, y); 
+    if (y > z)
+        swap (y,z);   
+    if (y > x)
+        swap (y,x);  
+    if (x > z)
+        swap (x , z);  
+    cout << y << ", " << x << ' ' << z <<  endl ;
+    return 0 ;
 }
